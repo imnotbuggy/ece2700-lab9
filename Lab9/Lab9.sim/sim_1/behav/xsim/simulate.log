@@ -1,0 +1,19 @@
+Time resolution is 1 ps
+t=15000 in=1 shift_unlock=x fsm_unlock=0
+t=25000 in=0 shift_unlock=0 fsm_unlock=0
+t=35000 in=1 shift_unlock=1 fsm_unlock=0
+t=45000 in=0 shift_unlock=0 fsm_unlock=0
+t=55000 in=1 shift_unlock=1 fsm_unlock=1
+t=65000 in=0 shift_unlock=0 fsm_unlock=0
+t=75000 in=0 shift_unlock=0 fsm_unlock=0
+t=85000 in=0 shift_unlock=0 fsm_unlock=0
+t=95000 in=0 shift_unlock=0 fsm_unlock=0
+t=105000 in=0 shift_unlock=0 fsm_unlock=0
+t=115000 in=1 shift_unlock=0 fsm_unlock=0
+t=125000 in=1 shift_unlock=0 fsm_unlock=0
+t=135000 in=1 shift_unlock=0 fsm_unlock=0
+t=145000 in=0 shift_unlock=0 fsm_unlock=0
+t=155000 in=1 shift_unlock=1 fsm_unlock=1
+t=165000 in=0 shift_unlock=0 fsm_unlock=0
+$finish called at time : 185 ns : File "/home/a02476145/ece2700/lab9/Lab9/Lab9.srcs/sim_1/new/ShiftDetectTest.v" Line 27
+INFO: xsimkernel Simulation Memory Usage: 474900 KB (Peak: 532172 KB), Simulation CPU Usage: 1180 ms

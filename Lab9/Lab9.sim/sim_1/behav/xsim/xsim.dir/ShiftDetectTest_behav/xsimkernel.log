@@ -1,0 +1,7 @@
+Running: xsim.dir/ShiftDetectTest_behav/xsimk -simmode gui -wdb ShiftDetectTest_behav.wdb -simrunnum 0 -socket 53071
+Design successfully loaded
+Design Loading Memory Usage: 392904 KB (Peak: 393024 KB)
+Design Loading CPU Usage: 1180 ms
+Simulation completed
+Simulation Memory Usage: 474900 KB (Peak: 532172 KB)
+Simulation CPU Usage: 1180 ms
