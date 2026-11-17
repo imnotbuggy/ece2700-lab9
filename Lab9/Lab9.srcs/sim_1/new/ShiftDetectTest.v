@@ -15,7 +15,7 @@ module ShiftDetectTest;
     integer i;
     reg [15:0] pattern = 16'b1010100000111010;
     initial begin
-        #5;
+        #10;
         reset = 0;
         for (i = 15; i >= 0; i = i - 1) begin
             serial_in = pattern[i];

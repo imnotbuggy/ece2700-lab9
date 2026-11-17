@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2026.1 (64-bit)
+# SW Build 6511674 on Tue Jun 16 11:02:23 MDT 2026
+# IP Build 6504888 on Tue Jun 09 09:05:25 MDT 2026
+# SharedData Build 6501428 on Mon Jun 08 17:34:18 MDT 2026
+# Start of session at: Tue Nov 17 14:37:11 2026
+# Process ID         : 24828
+# Current directory  : C:/Users/chris/Desktop/ece2700/ece2700-lab9/Lab9/Lab9.runs/impl_1
+# Command line       : vivado.exe -log TOP.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source TOP.tcl -notrace
+# Log file           : C:/Users/chris/Desktop/ece2700/ece2700-lab9/Lab9/Lab9.runs/impl_1/TOP.vdi
+# Journal file       : C:/Users/chris/Desktop/ece2700/ece2700-lab9/Lab9/Lab9.runs/impl_1\vivado.jou
+# Running On         : ChrisLaptop
+# Platform           : Windows 11
+# Operating System   : 26300
+# Processor Detail   : Intel(R) Core(TM) Ultra 7 155H
+# CPU Frequency      : 2995 MHz
+# CPU Physical cores : 16
+# CPU Logical cores  : 22
+# Host memory        : 33851 MB
+# Swap memory        : 34359 MB
+# Total Virtual      : 68211 MB
+# Available Virtual  : 47340 MB
+#-----------------------------------------------------------
+source TOP.tcl -notrace

@@ -31,11 +31,13 @@ localparam ST0 = 2'b00,
            
 
 reg [1:0] state, next_state;
-reg [1:0] next_out;
+reg next_out;
 
 always @(posedge clk or posedge reset) begin
-    if (reset)
+    if (reset) begin
         state <= ST0;
+        unlock <= 1'b0;
+    end 
     else begin
         state <= next_state;
         unlock <= next_out;
@@ -64,7 +66,7 @@ always @(*) begin
         ST2: begin
             if (serial_in) begin
                 next_state = ST3;
-                next_out = 1;
+                next_out = 1'b1;
             end
             else
                 next_state = ST0;
